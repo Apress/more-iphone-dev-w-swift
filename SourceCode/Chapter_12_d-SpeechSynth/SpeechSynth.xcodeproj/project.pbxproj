@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AFE66B21A297D80006798DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE66B11A297D80006798DF /* AppDelegate.swift */; };
+		4AFE66B41A297D80006798DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE66B31A297D80006798DF /* ViewController.swift */; };
+		4AFE66B71A297D80006798DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFE66B51A297D80006798DF /* Main.storyboard */; };
+		4AFE66B91A297D80006798DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFE66B81A297D80006798DF /* Images.xcassets */; };
+		4AFE66BC1A297D80006798DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFE66BA1A297D80006798DF /* LaunchScreen.xib */; };
+		4AFE66C81A297D80006798DF /* SpeechSynthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE66C71A297D80006798DF /* SpeechSynthTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AFE66C21A297D80006798DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AFE66A41A297D80006798DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AFE66AB1A297D80006798DF;
+			remoteInfo = SpeechSynth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AFE66AC1A297D80006798DF /* SpeechSynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFE66B01A297D80006798DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFE66B11A297D80006798DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AFE66B31A297D80006798DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AFE66B61A297D80006798DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AFE66B81A297D80006798DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AFE66BB1A297D80006798DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AFE66C11A297D80006798DF /* SpeechSynthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechSynthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFE66C61A297D80006798DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFE66C71A297D80006798DF /* SpeechSynthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AFE66A91A297D80006798DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFE66BE1A297D80006798DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFE66A31A297D80006798DF = {
+			isa = PBXGroup;
+			children = (
+				4AFE66AE1A297D80006798DF /* SpeechSynth */,
+				4AFE66C41A297D80006798DF /* SpeechSynthTests */,
+				4AFE66AD1A297D80006798DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AFE66AD1A297D80006798DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE66AC1A297D80006798DF /* SpeechSynth.app */,
+				4AFE66C11A297D80006798DF /* SpeechSynthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AFE66AE1A297D80006798DF /* SpeechSynth */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE66B11A297D80006798DF /* AppDelegate.swift */,
+				4AFE66B31A297D80006798DF /* ViewController.swift */,
+				4AFE66B51A297D80006798DF /* Main.storyboard */,
+				4AFE66B81A297D80006798DF /* Images.xcassets */,
+				4AFE66BA1A297D80006798DF /* LaunchScreen.xib */,
+				4AFE66AF1A297D80006798DF /* Supporting Files */,
+			);
+			path = SpeechSynth;
+			sourceTree = "<group>";
+		};
+		4AFE66AF1A297D80006798DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE66B01A297D80006798DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AFE66C41A297D80006798DF /* SpeechSynthTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE66C71A297D80006798DF /* SpeechSynthTests.swift */,
+				4AFE66C51A297D80006798DF /* Supporting Files */,
+			);
+			path = SpeechSynthTests;
+			sourceTree = "<group>";
+		};
+		4AFE66C51A297D80006798DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE66C61A297D80006798DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AFE66AB1A297D80006798DF /* SpeechSynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFE66CB1A297D80006798DF /* Build configuration list for PBXNativeTarget "SpeechSynth" */;
+			buildPhases = (
+				4AFE66A81A297D80006798DF /* Sources */,
+				4AFE66A91A297D80006798DF /* Frameworks */,
+				4AFE66AA1A297D80006798DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechSynth;
+			productName = SpeechSynth;
+			productReference = 4AFE66AC1A297D80006798DF /* SpeechSynth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AFE66C01A297D80006798DF /* SpeechSynthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFE66CE1A297D80006798DF /* Build configuration list for PBXNativeTarget "SpeechSynthTests" */;
+			buildPhases = (
+				4AFE66BD1A297D80006798DF /* Sources */,
+				4AFE66BE1A297D80006798DF /* Frameworks */,
+				4AFE66BF1A297D80006798DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AFE66C31A297D80006798DF /* PBXTargetDependency */,
+			);
+			name = SpeechSynthTests;
+			productName = SpeechSynthTests;
+			productReference = 4AFE66C11A297D80006798DF /* SpeechSynthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AFE66A41A297D80006798DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "OZ Apps";
+				TargetAttributes = {
+					4AFE66AB1A297D80006798DF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4AFE66C01A297D80006798DF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4AFE66AB1A297D80006798DF;
+					};
+				};
+			};
+			buildConfigurationList = 4AFE66A71A297D80006798DF /* Build configuration list for PBXProject "SpeechSynth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AFE66A31A297D80006798DF;
+			productRefGroup = 4AFE66AD1A297D80006798DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AFE66AB1A297D80006798DF /* SpeechSynth */,
+				4AFE66C01A297D80006798DF /* SpeechSynthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AFE66AA1A297D80006798DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFE66B71A297D80006798DF /* Main.storyboard in Resources */,
+				4AFE66BC1A297D80006798DF /* LaunchScreen.xib in Resources */,
+				4AFE66B91A297D80006798DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFE66BF1A297D80006798DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AFE66A81A297D80006798DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFE66B41A297D80006798DF /* ViewController.swift in Sources */,
+				4AFE66B21A297D80006798DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFE66BD1A297D80006798DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFE66C81A297D80006798DF /* SpeechSynthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AFE66C31A297D80006798DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AFE66AB1A297D80006798DF /* SpeechSynth */;
+			targetProxy = 4AFE66C21A297D80006798DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AFE66B51A297D80006798DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AFE66B61A297D80006798DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AFE66BA1A297D80006798DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AFE66BB1A297D80006798DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AFE66C91A297D80006798DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AFE66CA1A297D80006798DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AFE66CC1A297D80006798DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechSynth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AFE66CD1A297D80006798DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechSynth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AFE66CF1A297D80006798DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechSynthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechSynth.app/SpeechSynth";
+			};
+			name = Debug;
+		};
+		4AFE66D01A297D80006798DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpeechSynthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechSynth.app/SpeechSynth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AFE66A71A297D80006798DF /* Build configuration list for PBXProject "SpeechSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFE66C91A297D80006798DF /* Debug */,
+				4AFE66CA1A297D80006798DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFE66CB1A297D80006798DF /* Build configuration list for PBXNativeTarget "SpeechSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFE66CC1A297D80006798DF /* Debug */,
+				4AFE66CD1A297D80006798DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFE66CE1A297D80006798DF /* Build configuration list for PBXNativeTarget "SpeechSynthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFE66CF1A297D80006798DF /* Debug */,
+				4AFE66D01A297D80006798DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AFE66A41A297D80006798DF /* Project object */;
+}

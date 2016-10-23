@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="mapMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcJ-YB-Obc">
+                                <rect key="frame" x="482" y="562" width="102" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="zIM-sd-ag9"/>
+                                </constraints>
+                                <state key="normal" title="GO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findMe:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VV7-Of-a6k"/>
+                                </connections>
+                            </button>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7Tg-ES-rjn">
+                                <rect key="frame" x="16" y="552" width="568" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ka-cQ-Jbm">
+                                <rect key="frame" x="16" y="566" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5va-nt-78K">
+                                <rect key="frame" x="16" y="20" width="568" height="524"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="KUX-cV-x5O"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5va-nt-78K" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="7tC-8Y-bhV"/>
+                            <constraint firstItem="7Tg-ES-rjn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="FPx-fC-3RO"/>
+                            <constraint firstItem="5va-nt-78K" firstAttribute="leading" secondItem="7Tg-ES-rjn" secondAttribute="leading" id="Gj1-0k-sgj"/>
+                            <constraint firstItem="7Tg-ES-rjn" firstAttribute="top" secondItem="5va-nt-78K" secondAttribute="bottom" constant="8" symbolic="YES" id="PJS-es-R1o"/>
+                            <constraint firstItem="4Ka-cQ-Jbm" firstAttribute="trailing" secondItem="OcJ-YB-Obc" secondAttribute="trailing" id="UE7-Nm-Q0o"/>
+                            <constraint firstItem="7Tg-ES-rjn" firstAttribute="trailing" secondItem="OcJ-YB-Obc" secondAttribute="trailing" id="VBN-rB-Ygw"/>
+                            <constraint firstItem="OcJ-YB-Obc" firstAttribute="top" secondItem="7Tg-ES-rjn" secondAttribute="bottom" constant="8" symbolic="YES" id="ZJd-AF-nLd"/>
+                            <constraint firstItem="7Tg-ES-rjn" firstAttribute="trailing" secondItem="5va-nt-78K" secondAttribute="trailing" id="chQ-HZ-O1q"/>
+                            <constraint firstItem="7Tg-ES-rjn" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="g1A-KF-qPK"/>
+                            <constraint firstItem="4Ka-cQ-Jbm" firstAttribute="top" secondItem="7Tg-ES-rjn" secondAttribute="bottom" constant="12" id="kyE-9j-5pP"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4Ka-cQ-Jbm" secondAttribute="bottom" constant="13" id="n8d-Aa-kLh"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="OcJ-YB-Obc" secondAttribute="bottom" constant="8" symbolic="YES" id="oWi-w4-5V6"/>
+                            <constraint firstItem="4Ka-cQ-Jbm" firstAttribute="leading" secondItem="7Tg-ES-rjn" secondAttribute="leading" id="tFI-4s-ATL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="OcJ-YB-Obc" id="hJ3-3Q-da1"/>
+                        <outlet property="mapView" destination="5va-nt-78K" id="SqF-k1-y3Q"/>
+                        <outlet property="progressBar" destination="7Tg-ES-rjn" id="jVu-7c-AZf"/>
+                        <outlet property="progressLabel" destination="4Ka-cQ-Jbm" id="Ogz-m5-2Ui"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="434"/>
+        </scene>
+    </scenes>
+</document>
